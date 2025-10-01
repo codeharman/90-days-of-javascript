@@ -19,7 +19,14 @@ function clock() {
   let minutes = now.getMinutes();
   let seconds = now.getSeconds();
   // format with 2 digits
-  timeEl.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
+
+  if (twelveHour) {
+    hours = hours % 12 === 0 ? 12 : hours % 12;
+    let period = hours >= 12 ? "AM" : "PM";
+    timeEl.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} ${period}`
+  } else {
+    timeEl.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
+  }
 };
 
 // date function
@@ -36,7 +43,13 @@ function date() {
 
 // Switch toggle
 
+let twelveHour = false;
 
+// toggle button
+
+toggleBtn.addEventListener('click', () => {
+  twelveHour = !twelveHour
+})
 
 date();
 clock();
