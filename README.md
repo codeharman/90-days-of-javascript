@@ -17,7 +17,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 
 | Day | Project | Live Demo | Code |
 |-----|---------|-----------|------|
-| 1   | Counter App | [Live](#) | [Code](./Day01-CounterApp) |
+| 1   | Counter App | [Live](https://passenger-counter-hazel.vercel.app/) | [Code](https://github.com/codeharman/Passenger-Counter) |
 | 2   | Digital Clock | [Live](#) | [Code](./Day02-DigitalClock) |
 | 3   | Stopwatch/Timer | [Live](#) | [Code](./Day03-Stopwatch) |
 | 4   | Random Quote Generator | [Live](#) | [Code](./Day04-RandomQuoteGenerator) |
