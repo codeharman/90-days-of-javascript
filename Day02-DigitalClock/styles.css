@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/* contact */
+/* footer */
 
 .footer {
   background-color: #282c34;
@@ -22,9 +22,13 @@ body {
   width: 100%
 }
 
+/* contact */
+
 .contact {
   color: hotpink;
 }
+
+/* link color */
 
 a {
   color: #b6deff
