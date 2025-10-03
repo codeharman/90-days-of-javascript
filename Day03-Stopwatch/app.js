@@ -50,7 +50,7 @@ function timerWatch() {
         }
       }
      updateStopwatchDisplay()
-    }, 10)
+    }, 1000)
   }
 };
 
