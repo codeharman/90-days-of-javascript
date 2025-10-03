@@ -16,19 +16,72 @@ const startBtn = document.getElementById('start-btn');
 const stopBtn = document.getElementById('stop-btn');
 const resetBtn = document.getElementById('reset-btn');
 const saveBtn = document.getElementById('save-btn');
-const saveIntervals = document.getElementById('save-intervals');
+const saveIntervals = document.querySelector('.save-intervals');
 
-// function for the stopwatch
+// Stopwatch variables
 
-let startTimer = 0;
+let timer;
+let hours = 0;
+let minutes = 0;
+let seconds = 0;
 
-function start() {
-  setInterval( () => {
-  startTimer += 1
-  stopWatchTimer.textContent = startTimer;
-  }, 1000)
+// Update Function display
+
+function updateStopwatchDisplay() {
+  stopWatchTimer.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
+// startBtn function
+
+startBtn.addEventListener('click', timerWatch)
+
+// Stopwatch function
+
+function timerWatch() {
+  if(!timer) {
+    timer = setInterval(() => {
+      seconds++
+      if (seconds === 60) {
+        seconds = 0;
+        minutes++
+        if (minutes === 60) {
+          minutes = 0;
+          hours++
+        }
+      }
+     updateStopwatchDisplay()
+    }, 10)
+  }
 };
 
+// Stop function
 
+stopBtn.addEventListener('click', stopWatch);
 
-startBtn.addEventListener('click', start)
+function stopWatch() {
+  clearInterval(timer)
+  timer = null;
+}
+
+// Reset function
+
+function resetWatch() {
+  stopWatch()
+  hours = 0;
+  minutes = 0;
+  seconds = 0;
+  updateStopwatchDisplay()
+}
+
+resetBtn.addEventListener('click', resetWatch)
+
+// save function
+
+function saveValue() {
+  let saveStr = `${hours.toString().padStart(2, '0')}:` + 
+                `${minutes.toString().padStart(2, '0')}:` + 
+                `${seconds.toString().padStart(2, '0')}`;
+  saveIntervals.innerHTML += `${saveStr} <br>`
+}
+
+saveBtn.addEventListener('click', saveValue)
