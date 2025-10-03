@@ -1,0 +1,53 @@
+body {
+  background-color: #282c34;
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  margin-left: 200px;
+  height: 100vh;
+  width: 600px;
+}
+
+/* contact */
+
+.contact {
+  color: hotpink;
+  font-size: small;
+}
+
+a {
+  color: white;
+}
+
+/* header */
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  color: #da70d6;
+}
+
+/* button */
+
+.toggle {
+  background-color: #e06c75;
+  color: #282c34;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: .5s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  background-color: #ee2e24;
+  color: white;
+  font-weight: bold;
+}
+
