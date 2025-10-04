@@ -21,7 +21,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 | 2   | Digital Clock | [Live](https://digital-clock-codeharman.vercel.app/) | [Code](./Day02-DigitalClock) |
 | 3   | Stopwatch/Timer | [Live](https://stopwatch-codeharman.vercel.app/) | [Code](./Day03-Stopwatch) |
 | 4   | Random Quote Generator | [Live](https://random-quote-generator-codeharman.vercel.app/) | [Code](./Day04-RandomQuoteGenerator) |
-| 5   | Color Flipper | [Live](#) | [Code](./Day05-ColorFlipper) |
+| 5   | Color Flipper | [Live](https://color-picker-codeharman.vercel.app/) | [Code](./Day05-ColorFlipper) |
 | 6   | Palindrome Checker | [Live](#) | [Code](./Day06-PalindromeChecker) |
 | 7   | Word Counter | [Live](#) | [Code](./Day07-WordCounter) |
 | 8   | BMI Calculator | [Live](#) | [Code](./Day08-BMICalculator) |
