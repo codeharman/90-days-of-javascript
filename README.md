@@ -22,7 +22,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 | 3   | Stopwatch/Timer | [Live](https://stopwatch-codeharman.vercel.app/) | [Code](./Day03-Stopwatch) |
 | 4   | Random Quote Generator | [Live](https://random-quote-generator-codeharman.vercel.app/) | [Code](./Day04-RandomQuoteGenerator) |
 | 5   | Color Flipper | [Live](https://color-picker-codeharman.vercel.app/) | [Code](./Day05-ColorFlipper) |
-| 6   | Palindrome Checker | [Live](#) | [Code](./Day06-PalindromeChecker) |
+| 6   | Palindrome Checker | [Live](https://palindrome-checker-codeharman.vercel.app/) | [Code](./Day06-PalindromeChecker) |
 | 7   | Word Counter | [Live](#) | [Code](./Day07-WordCounter) |
 | 8   | BMI Calculator | [Live](#) | [Code](./Day08-BMICalculator) |
 | 9   | Temperature Converter | [Live](#) | [Code](./Day09-TemperatureConverter) |
@@ -156,7 +156,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 ---
 
 ## ✅ Current Status
-- Completed: 4/90 projects  
+- Completed: 6/90 projects  
 - Completed: 0 LeetCode problems  
 
 Stay tuned 🚀
