@@ -12,3 +12,28 @@
 //   - If they match, display "true" in the result area.
 //   - Otherwise, display "false" in the result area.
 
+// input
+
+const input = document.getElementById('input');
+
+// search button
+
+const search = document.getElementById('search-btn');
+search.addEventListener('click', checker)
+
+// result 
+
+const result = document.querySelector('.result');
+
+// Input logic
+
+function checker() {
+  const values = input.value.toLowerCase();
+  const reverse = values.split('').reverse().join('');
+    if (values === reverse) {
+      result.textContent = `✅ It's a palindrome!`;
+    } else {
+      result.textContent = `❌ Not a palindrome.`;
+    }
+};
+
