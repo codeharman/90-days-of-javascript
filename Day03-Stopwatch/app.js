@@ -71,7 +71,12 @@ function resetWatch() {
   minutes = 0;
   seconds = 0;
   updateStopwatchDisplay()
+  // Also clear any saved intervals so a full reset truly resets everything
+  if (saveIntervals) {
+    saveIntervals.innerHTML = '';
+  }
 }
+
 
 resetBtn.addEventListener('click', resetWatch)
 
