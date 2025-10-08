@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #282c34;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* contact */
+
+.contact {
+  color: hotpink;
+  transition: .5s;
+}
+
+a {
+  color: whitesmoke;
+}
+
+/* header */
+
+.header {
+  color: #da70d6;
+  text-shadow: 0px 6px 6px #ee2e24;
+  font-size: 60px;
+  margin: 0;
+}
+
+/* p tags */ 
+
+.para {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* input boxes */
+
+.weight, .height {
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 5px 20px 5px 10px;
+  box-shadow: 0px 6px 6px #5ea6e2;
+  background-color: #b6deff;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.height {
+  margin-left: 5px;
+}
+
+.weight:hover, .height:hover {
+  box-shadow: 0px 6px 6px #7dd181;
+  background-color: #c9ffe2;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+/* search button */
+
+#done {
+  padding: 10px 100px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0px 6px 6px #ee2e24;
+  background-color: white;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: bold;
+}
+
+#done:hover {
+  transition: 1s;
+  box-shadow: 0px 6px 6px whitesmoke;
+  background-color: #ee2e24;
+  color: white;
+  transform: scale(1.1);
+}
