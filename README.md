@@ -25,7 +25,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 | 6   | Palindrome Checker | [Live](https://palindrome-checker-codeharman.vercel.app/) | [Code](./Day06-PalindromeChecker) |
 | 7   | Word Counter | [Live](https://word-counter-codeharman.vercel.app/) | [Code](./Day07-WordCounter) |
 | 8   | BMI Calculator | [Live](https://bmi-calculator-codeharman.vercel.app/) | [Code](./Day08-BMICalculator) |
-| 9   | Temperature Converter | [Live](https://temperature-converter-beryl.vercel.app/) | [Code](./Day09-TemperatureConverter) |
+| 9   | Temperature Converter | [Live](https://temerature-converter-codeharman.vercel.app/) | [Code](./Day09-TemperatureConverter) |
 | 10  | To-Do List | [Live](#) | [Code](./Day10-ToDoList) |
 | 11  | Basic Calculator | [Live](#) | [Code](./Day11-BasicCalculator) |
 | 12  | Dice Roller | [Live](#) | [Code](./Day12-DiceRoller) |
