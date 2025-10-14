@@ -26,7 +26,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 | 7   | Word Counter | [Live](https://word-counter-codeharman.vercel.app/) | [Code](./Day07-WordCounter) |
 | 8   | BMI Calculator | [Live](https://bmi-calculator-codeharman.vercel.app/) | [Code](./Day08-BMICalculator) |
 | 9   | Temperature Converter | [Live](https://temerature-converter-codeharman.vercel.app/) | [Code](./Day09-TemperatureConverter) |
-| 10  | To-Do List | [Live](#) | [Code](./Day10-ToDoList) |
+| 10  | To-Do List | [Live](https://to-do-list-codeharman.vercel.app/) | [Code](./Day10-ToDoList) |
 | 11  | Basic Calculator | [Live](#) | [Code](./Day11-BasicCalculator) |
 | 12  | Dice Roller | [Live](#) | [Code](./Day12-DiceRoller) |
 | 13  | Rock Paper Scissors | [Live](#) | [Code](./Day13-RockPaperScissors) |
@@ -156,7 +156,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 ---
 
 ## ✅ Current Status
-- Completed: 9/90 projects  
+- Completed: 10/90 projects  
 - Completed: 0 LeetCode problems  
 
 Stay tuned 🚀
