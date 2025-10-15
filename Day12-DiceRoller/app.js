@@ -16,7 +16,7 @@ function roller() {
   for (let i = 0; i < input.value; i++) {
     const value = Math.floor(Math.random() * 6) + 1 
     diceEl.textContent += `${value}, `
-    diceImg.innerHTML += `<img src="images/${value}.png" alt="dice ${value}"></img>`
+    diceImg.innerHTML += `<img src="images/${value}.png" alt="dice ${value}" class='final'></img>`
   }
 }
 

@@ -1,0 +1,82 @@
+body {
+  background-color: #282c34;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+/* Dice Image */
+
+.dice-image {
+  width: 100px;
+}
+
+/* Header */
+
+.header {
+  color: #da70d6;
+  text-shadow: 0px 6px 4px #ee2e24;
+  font-size: 60px;
+}
+
+.contact {
+  color: hotpink;
+}
+
+a {
+  color: whitesmoke;
+}
+
+/* Input field */
+
+#input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #ee2e24;
+  transition: .5s;
+  margin-right: 4px;
+}
+
+#input:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* button */
+
+#roll {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #b6deff;
+  box-shadow: 0px 4px 4px #5ea6e2;
+  transition: .5s;
+}
+
+#roll:hover {
+  transition: 1s;
+  background-color: #c9ffe2;
+  box-shadow: 0px 4px 4px #96e8bc;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* dice result image */
+
+.final {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* dice result */
+
+.dice-result {
+  font-weight: bold;
+}
