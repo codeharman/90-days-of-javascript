@@ -17,18 +17,18 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 
 | Day | Project | Live Demo | Code |
 |-----|---------|-----------|------|
-| 1   | Counter App | [Live](https://passenger-counter-hazel.vercel.app/) | [Code](https://github.com/codeharman/Passenger-Counter) |
-| 2   | Digital Clock | [Live](https://digital-clock-codeharman.vercel.app/) | [Code](./Day02-DigitalClock) |
-| 3   | Stopwatch/Timer | [Live](https://stopwatch-codeharman.vercel.app/) | [Code](./Day03-Stopwatch) |
-| 4   | Random Quote Generator | [Live](https://random-quote-generator-codeharman.vercel.app/) | [Code](./Day04-RandomQuoteGenerator) |
-| 5   | Color Flipper | [Live](https://color-picker-codeharman.vercel.app/) | [Code](./Day05-ColorFlipper) |
-| 6   | Palindrome Checker | [Live](https://palindrome-checker-codeharman.vercel.app/) | [Code](./Day06-PalindromeChecker) |
-| 7   | Word Counter | [Live](https://word-counter-codeharman.vercel.app/) | [Code](./Day07-WordCounter) |
-| 8   | BMI Calculator | [Live](https://bmi-calculator-codeharman.vercel.app/) | [Code](./Day08-BMICalculator) |
-| 9   | Temperature Converter | [Live](https://temerature-converter-codeharman.vercel.app/) | [Code](./Day09-TemperatureConverter) |
-| 10  | To-Do List | [Live](https://to-do-list-codeharman.vercel.app/) | [Code](./Day10-ToDoList) |
+| 1   | Counter App | [Live](#) | [Code](https://github.com/codeharman/Passenger-Counter) |
+| 2   | Digital Clock | [Live](#) | [Code](./Day02-DigitalClock) |
+| 3   | Stopwatch/Timer | [Live](#) | [Code](./Day03-Stopwatch) |
+| 4   | Random Quote Generator | [Live](#) | [Code](./Day04-RandomQuoteGenerator) |
+| 5   | Color Flipper | [Live](#) | [Code](./Day05-ColorFlipper) |
+| 6   | Palindrome Checker | [Live](#) | [Code](./Day06-PalindromeChecker) |
+| 7   | Word Counter | [Live](#) | [Code](./Day07-WordCounter) |
+| 8   | BMI Calculator | [Live](#) | [Code](./Day08-BMICalculator) |
+| 9   | Temperature Converter | [Live](#) | [Code](./Day09-TemperatureConverter) |
+| 10  | To-Do List | [Live](#) | [Code](./Day10-ToDoList) |
 | 11  | Basic Calculator | [Live](#) | [Code](./Day11-BasicCalculator) |
-| 12  | Dice Roller | [Live](https://dice-roller-codeharman.vercel.app/) | [Code](./Day12-DiceRoller) |
+| 12  | Dice Roller | [Live](#) | [Code](./Day12-DiceRoller) |
 | 13  | Rock Paper Scissors | [Live](#) | [Code](./Day13-RockPaperScissors) |
 | 14  | Tip Calculator | [Live](#) | [Code](./Day14-TipCalculator) |
 | 15  | Random Password Generator | [Live](#) | [Code](./Day15-RandomPasswordGenerator) |
