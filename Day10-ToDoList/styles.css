@@ -1,4 +1,87 @@
 body {
-  background-color: hotpink;
+  background-color: #282c34;
   color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+/* Heading */
+
+.header {
+  color: #da70d6;
+  text-shadow: 0px 5px 5px #ee2e24;
+  font-size: 60px;
+}
+
+.header2 {
+  color: #b6deff;
+}
+
+/* Input box */
+
+.input-data {
+  padding: 10px 60px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 4px #ee2e24;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.input-data:hover {
+  background-color: #b6deff;
+  box-shadow: 0px 4px 4px #5ea6e2;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* Buttons */
+
+.add-btn, .delete {
+  padding: 10px 30px;
+  box-shadow: 0px 4px 4px #85cb33;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #efffc8;
+  transition: .6s;
+}
+
+.add-btn:hover, .delete:hover {
+  background-color: #c9ffe2;
+  box-shadow: 0px 4px 4px #96e8bc;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* checkbox */
+
+.container {
+  background-color: #282c34;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  border: 1px solid white;
+}
+
+.box {
+  margin-top: 20px;
+  background-color: #53565d;
+  padding: 1px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 4px black;
+}
+
+/* contact */
+
+.contact {
+  color: whitesmoke;
+}
+
+a {
+  color: hotpink;
 }
