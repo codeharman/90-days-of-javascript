@@ -28,7 +28,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 | 9   | Temperature Converter | [Live](https://temerature-converter-codeharman.vercel.app/) | [Code](./Day09-TemperatureConverter) |
 | 10  | To-Do List | [Live](https://to-do-list-codeharman.vercel.app/) | [Code](./Day10-ToDoList) |
 | 11  | Basic Calculator | [Live](#) | [Code](./Day11-BasicCalculator) |
-| 12  | Dice Roller | [Live](#) | [Code](./Day12-DiceRoller) |
+| 12  | Dice Roller | [Live](https://dice-roller-codeharman.vercel.app/) | [Code](./Day12-DiceRoller) |
 | 13  | Rock Paper Scissors | [Live](#) | [Code](./Day13-RockPaperScissors) |
 | 14  | Tip Calculator | [Live](#) | [Code](./Day14-TipCalculator) |
 | 15  | Random Password Generator | [Live](#) | [Code](./Day15-RandomPasswordGenerator) |
