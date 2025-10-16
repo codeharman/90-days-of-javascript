@@ -8,7 +8,12 @@ const result = document.querySelector('.result');
 
 function render() {
   let calculateValue = parseFloat(inputEl.value);
-  // 5%
+
+  if (isNaN(calculateValue)) {
+    result.textContent = `Please Enter valid number`
+    return;
+  }
+  // Tips math
   let fivePer = calculateValue + (calculateValue * 0.05);
   let tenPer = calculateValue + (calculateValue * 0.10);
   let twelvePer = calculateValue + (calculateValue * 0.12);
@@ -23,7 +28,7 @@ function render() {
 result.textContent = 
   `
     Here are the following Tips
-    
+
     For 5% the Total is: ${fivePer}
     For 10% the Total is: ${tenPer}
     For 12% the Total is: ${twelvePer}
