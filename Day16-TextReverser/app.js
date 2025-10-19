@@ -10,5 +10,5 @@ button.addEventListener('click', renderEl);
 
 function renderEl() {
   let text = inputEl.value.split('').reverse().join('');
-  render.textContent = text
+  render.textContent = `Result: ${text}`
 }
