@@ -156,7 +156,7 @@ The goal of this repo is to **escape tutorial hell**, **master JS fundamentals**
 ---
 
 ## ✅ Current Status
-- Completed: 20/90 projects  
+- Completed: 22/90 projects  
 - Completed: 0 LeetCode problems  
 
 Stay tuned 🚀
